@@ -1,0 +1,343 @@
+*{
+    font-family:'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*background-color: rgb(235, 219, 219);*/
+    background-image: url('./img/fondo.jpg');
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color:rgb(255, 255, 255);
+}
+section{
+    padding-bottom: 80px;
+}
+
+input.boton{
+    background-color: #0357f3;
+}
+.col_titulos{
+    color: #1F3E72;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.col_subtitulos{
+    color: #1F3E72;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.img_principales{
+    width: 100%;
+}
+.icono_amarillo{
+    width: 20px;
+    height: 20px;
+}
+.icono_azul{
+    width: 40px;
+    height: 40px;
+}
+
+.color_parrafo{
+    color: #6D7893;
+}
+
+/* -----------MEnu----------*/
+.col_emp{
+    font-weight: bolder;
+    font-size: x-large;
+    font-style: inherit;
+    letter-spacing: 2px;
+    justify-content: center;
+    align-items: center;
+    color: #0357f3;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    border-bottom: 2px solid #eef2f5;
+    padding: 20px 10px 20px 20px;
+}
+
+ul {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+li{
+    list-style: none;
+    color: #6D7893;
+    font-weight: bolder;
+    font-size: medium;
+    font-style: normal;
+    letter-spacing: 1.5px;
+}
+
+.boton{
+    border-radius: 3px;
+    border: #0357f3;
+    color: #fff;
+    font-weight: bold;
+    font-size: medium;
+    letter-spacing: 1.5px;
+    padding: 10px;
+}
+
+
+/* --------------seccion virus golpeador------------------*/
+
+.principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 80px;
+    /*border: black 2px solid;*/
+}
+
+.infoprinc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.par_h1_virus_golpeador{
+    display:grid;
+    gap: 50px;  
+}
+
+.logovacunas{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.caracteristicas_am{
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.carac_am{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.img_logos{
+    width: 100%;
+    opacity: 0.2;
+}
+
+
+/*--------- seccion por que vacunarse-------*/
+
+.porquevacunarse{
+    padding-bottom: 30px;
+}
+.fourBeneficios{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
+}
+
+.card{
+    border-color: #d3d3d3;
+    border-style: solid;
+    border-radius: 2.5%;
+}
+
+.icono_azul_benef{
+    width: 50px;
+    height: 40px;
+    margin: 12px 0px 0px 13px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 5%;
+}
+
+.col_subtitulos_card{
+    color: #1F3E72;
+    font-weight: bolder;
+    font-size: large;
+    margin: 10px;
+}
+
+.color_parrafo_card{
+    color: #6D7893;
+    margin: 10px;
+}
+
+.par_h1_porque_vacunarse{
+    display:grid;
+    gap: 30px;
+    padding-left: 20px;  
+}
+
+
+/*-------seccion preparacion vacunacion-----*/
+.preparacion_vacuna{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.listas_despliegue{
+    padding-top: 10px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    width: max-content;
+    gap:10px;
+}
+
+.listas{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 12px;
+    border: #ebebeb solid 0.5px;
+
+}
+
+
+
+/*-------contacto de emergewncia-------------*/
+.contact_emergencia{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cubos_emergencia{
+    padding: 20px 20px 0px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.card_emergencia{
+    border-color: #fafafa;
+    border-style: solid;
+    border-radius: 2.5%;
+    display: grid;
+    flex-direction: column;
+    gap: 20px;
+    width: min-content;
+}
+
+.img_text{
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    /*border: #1F3E72 solid 1px;*/
+}
+ .tipo_contacto{
+     padding-left: 20px;
+ }
+
+
+
+.boton_azul{
+    border-radius: 3px;
+    border: #0357f3;
+    color: #fff;
+    font-weight: bold;
+    font-size: medium;
+    letter-spacing: 1.5px;
+    padding: 10px;
+    background-color: #0357f3;
+    width: min-content;
+}
+.boton_blanco{
+    border-radius: 3px;
+    border: #cfddf7;
+    color: #0357f3;
+    font-weight: bold;
+    font-size: medium;
+    letter-spacing: 1.5px;
+    padding: 10px;
+    background-color: #cfddf7;
+}
+
+.div_boton{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/*-------------footer----------*/
+.pie_pagina, .terminos{
+    background-color: #cfddf7;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 30px;
+}
+
+.lema_empresa{
+    padding: 30px 0px 30px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lema{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+
+.col_footer{
+    font-weight: bolder;
+    font-size: large;
+    color: #0357f3;
+    padding-bottom: 30px;
+}
+
+.color_parra_footer{
+    color: #6D7893;
+    font-size: medium;
+}
+
+
+.elementos_footer{
+    padding: 30px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card_footer{
+    display: grid;
+    flex-direction: column;
+    width: max-content;
+}
+.col_footer_card_titulo{
+    font-weight: bold;
+    font-size: large;
+    color: #1F3E72;
+}
+.color_footer{
+    color: #6D7893;
+    font-size: small;
+}
+
+.terminos{
+    padding: 0px 0px 0px 50px;
+}
+
+.terminosycondiciones{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
